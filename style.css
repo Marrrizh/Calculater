@@ -3,7 +3,7 @@
  height: 400px;
 display: grid;
 gap:10px;
-grid-template-rows: 60px;
+grid-template-rows: 80px;
 grid-auto-rows: 70px;
 justify-content: space-evenly;
 align-items: center;
@@ -13,8 +13,9 @@ border-radius: 40px;
 
 .display{
     width: 250px;
-    height: 70px;
-   
-grid-column:
-background-color: rgb(210, 216, 221);   
-}
+    height: 50px;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(92, 88, 88);
+    
