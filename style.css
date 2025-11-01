@@ -1,21 +1,28 @@
 .calculator {
- width: 300px;
- height: 400px;
+ width: 350px;
+ height: 450px;
 display: grid;
 gap:10px;
-grid-template-rows: 80px;
-grid-auto-rows: 70px;
-justify-content: space-evenly;
-align-items: center;
+grid-template-columns: repeat(4, 1fr); /* 4 одинаковые колонки */
+grid-template-rows:80px repeat(4, 70px); /* экран + 4 ряда кнопок */
 background-color: beige;
 border-radius: 40px;
+ padding: 20px;
 }
 
 .display{
-    width: 250px;
-    height: 50px;
+    grid-column: 1/-1;
     border-radius: 10px;
-    border-width: 2px;
+   width: auto;
+   height: 100%;
     background-color: rgb(255, 255, 255);
     border-color: rgb(92, 88, 88);
-    
+}
+
+button{
+
+    width: 100%; /* Занимает всю ширину колонки */
+    height: 100%; 
+    border-radius:20%;
+    font-size: 40px;
+}
