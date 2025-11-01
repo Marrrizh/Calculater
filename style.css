@@ -1,0 +1,20 @@
+.calculator {
+ width: 300px;
+ height: 400px;
+display: grid;
+gap:10px;
+grid-template-rows: 60px;
+grid-auto-rows: 70px;
+justify-content: space-evenly;
+align-items: center;
+background-color: beige;
+border-radius: 40px;
+}
+
+.display{
+    width: 250px;
+    height: 70px;
+   
+grid-column:
+background-color: rgb(210, 216, 221);   
+}
