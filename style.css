@@ -25,4 +25,27 @@ button{
     height: 100%; 
     border-radius:20%;
     font-size: 40px;
+    transition: all 0.3s ease;
+}
+
+.number {
+    background-color: rgb(238, 199, 102);
+}
+ 
+.operator {
+    background-color: rgb(209, 104, 66);
+}
+
+.equals {
+ background-color: rgb(209, 104, 66);
+}
+ 
+.clear {
+ background-color: rgb(182, 162, 155);    
+}
+
+button:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
