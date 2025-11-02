@@ -5,7 +5,7 @@ display: grid;
 gap:10px;
 grid-template-columns: repeat(4, 1fr); /* 4 одинаковые колонки */
 grid-template-rows:80px repeat(4, 70px); /* экран + 4 ряда кнопок */
-background-color: beige;
+background-color: rgb(238, 226, 172);
 border-radius: 40px;
  padding: 20px;
 }
