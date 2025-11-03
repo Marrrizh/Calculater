@@ -1,13 +1,8 @@
 let display = document.querySelector('.display');
 let numberButtons = document.querySelectorAll('.number');
 let currentNumber = '';
+let emptyDisplay=document.querySelector('.clear')
 
-numberButtons.forEach(button => {
-    button.addEventListener('click', function() {
-        // Добавить цифру к currentNumber
-        // Обновить display.textContent
-    });
-});
 
 numberButtons.forEach(button => {
     button.addEventListener('click', function() {
@@ -16,3 +11,8 @@ numberButtons.forEach(button => {
         display.textContent = currentNumber;         // 3. Обновить экран
     });
 });
+
+emptyDisplay.addEventListener('click', function() {
+        currentNumber = "";
+        display.textContent = "0";  
+    })
