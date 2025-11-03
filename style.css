@@ -3,6 +3,7 @@
  height: 450px;
 display: grid;
 gap:10px;
+row-gap: 20px; 
 grid-template-columns: repeat(4, 1fr); /* 4 одинаковые колонки */
 grid-template-rows:80px repeat(4, 70px); /* экран + 4 ряда кнопок */
 background-color: rgb(238, 226, 172);
@@ -14,9 +15,15 @@ border-radius: 40px;
     grid-column: 1/-1;
     border-radius: 10px;
    width: auto;
-   height: 100%;
+    height: 60px;
     background-color: rgb(255, 255, 255);
     border-color: rgb(92, 88, 88);
+     font-size: 40px;           /* Крупный шрифт */
+    text-align: right;         /* Выравнивание по правому краю */
+    padding: 10px 10px;        /* Отступы внутри */
+    border: 2px solid #ccc;    /* Обводка */
+    background: white;         /* Четкий контраст */
+    margin-bottom: 10px;  
 }
 
 button{
